@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+
+}
+
+.book-img{
+    width: 140px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.saleImg {
+    width: 2rem;
+}
+
+.book-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem auto;
+    width: 90vw;
+    z-index: 30;
+}
+
+.about-page {
+    background-color: rgb(174, 255, 186);
+    height: 90vh;
+    text-align: center;
+}
+.about-page h1{
+    margin-top: 0;
+    padding-top: 2rem;
+}
+
+.home-page {
+    background-color: rgb(255, 215, 201);
+    height: 90vh;
+    text-align: center;
+}
+.home-page h1{
+    margin-top: 0;
+    padding-top: 2rem;
+}
+
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 187, 163);
+}
+.app-header >*{
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+}
+
+
+.book-container{
+    background-color: rgba(255, 187, 163, 0.148);
+    width: 220px;
+    height: 350px;
+    margin: 1rem;
+    padding: 1rem; 
+}
+
+.books-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.input{
+    width: 100%;
+    margin: 2rem;
+    
+}
+
+.app-footer{
+    background-color: rgb(255, 187, 163);
+    text-align: center;
+    padding: .2rem;
+}
+
